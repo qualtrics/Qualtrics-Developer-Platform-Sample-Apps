@@ -1,0 +1,6 @@
+node_modules
+/plugins/*/public/*.js
+/plugins/*/public/*.css
+/plugins/*/public/*.ts
+/plugins/*/public/*.tsx
+package-lock.json
