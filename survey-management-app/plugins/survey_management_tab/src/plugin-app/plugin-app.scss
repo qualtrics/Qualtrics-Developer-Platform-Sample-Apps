@@ -1,0 +1,11 @@
+
+.plugin-app {
+  display: flex;
+  flex-direction: column;
+
+  .plugin-title {
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+}

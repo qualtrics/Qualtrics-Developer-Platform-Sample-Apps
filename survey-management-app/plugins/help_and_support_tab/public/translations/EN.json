@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "summary": "App Plugin Language Strings - EN"
+  },
+  "strings": {
+    "name": {
+      "text": "Help and Support",
+      "context": "Plugin name"
+    },
+    "description": {
+      "text": "Custom Block Plugin Template Description",
+      "context": "plugin description"
+    },
+    "pluginTitle": {
+      "text": "Help and Support",
+      "context": "Title of the plugin displayed on the page"
+    },
+    "pluginSubtext": {
+      "text": "To learn more about how the Qualtrics Developer Platform can be used to build apps, check out the links below!",
+      "context": "Subtext under the plugin title explaining the purpose"
+    },
+    "qualtricsDeveloperPlatformDocumentation": {
+      "text": "Qualtrics Developer Platform Documentation",
+      "context": "Link text to Qualtrics Developer Platform documentation"
+    },
+    "qualtricsAPIDocumentation": {
+      "text": "Qualtrics API Documentation",
+      "context": "Link text to Qualtrics API documentation"
+    },
+    "surveyEditorDocumentation": {
+      "text": "Survey Editor Documentation",
+      "context": "Link text to Survey Editor documentation"
+    },
+    "frontEndComponentsDocumentation": {
+      "text": "Qualtrics React Component Library",
+      "context": "Link text to Survey Editor documentation"
+    }
+  }
+}

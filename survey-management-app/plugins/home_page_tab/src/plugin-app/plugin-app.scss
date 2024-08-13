@@ -1,0 +1,59 @@
+
+.plugin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+
+  .title-section {
+    font-size: 34px;
+    font-weight: 400;
+  }
+
+  .panels-section {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .panel-border {
+      display: flex;
+      border-radius: 15px;
+      height: 400px;
+      width: 300px;
+      padding: 15px;
+      margin: 30px;
+
+      .panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 15px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: center;
+        .panel-text {
+          padding-top: 100px;
+        }
+        .panel-icon {
+          padding-bottom: 100px;
+        }
+      }
+    }
+
+    .panel-left {
+      background: linear-gradient(to right, #21dbaa, #01abed, #275bdf);
+    }
+
+    .panel-right {
+      background: linear-gradient(to right, #275bdf, #5a23e4);
+    }
+  }
+}

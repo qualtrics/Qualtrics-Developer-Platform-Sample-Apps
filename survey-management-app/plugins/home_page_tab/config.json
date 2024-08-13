@@ -1,0 +1,24 @@
+{
+  "id": "PLUG_cfaa38f7-f95f-45f2-8e29-0c837237f6b6",
+  "type": "custom_block",
+  "version": "0.0.1",
+  "defaultLanguage": "EN",
+  "metadata": {
+    "tags": [
+      "endUserApp"
+    ],
+    "type": "endUserAppTab",
+    "requirements": {
+      "AccountPermissions": [],
+      "BrandPermissions": [],
+      "features": []
+    },
+    "iconName": "",
+    "themeType": "",
+    "attachmentPoints": [
+      {
+        "appId": "EXT_eb2482df-da4b-47eb-9fd3-5188df4cdf18"
+      }
+    ]
+  }
+}

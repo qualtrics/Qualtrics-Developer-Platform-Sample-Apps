@@ -1,0 +1,70 @@
+{
+  "id": "PLUG_e736d7a7-58b5-4850-aeef-d10d99b81a07",
+  "type": "end_user_app_definition",
+  "metadata": {
+    "tags": [
+      "endUserApp"
+    ],
+    "type": "endUserApp",
+    "portalType": "INTERNAL",
+    "requirements": {
+      "AccountPermissions": [],
+      "BrandPermissions": [],
+      "features": []
+    },
+    "tabs": [
+      {
+        "type": "endUserAppTabPlugin",
+        "pluginId": "PLUG_cfaa38f7-f95f-45f2-8e29-0c837237f6b6",
+        "iconName": "HomeIcon",
+        "order": 1
+      },
+      {
+        "type": "endUserAppTabPlugin",
+        "pluginId": "PLUG_e1955cb3-416c-48b9-ba46-34fa8555f32b",
+        "iconName": "DashboardIcon",
+        "order": 2
+      },
+      {
+        "type": "endUserAppTabPlugin",
+        "pluginId": "PLUG_9276b8b7-312b-42a1-8aac-7441810df395",
+        "iconName": "HelpIcon",
+        "order": 10090
+      },
+      {
+        "nameKey": "TAB_TICKETS",
+        "type": "content",
+        "id": "TicketsView",
+        "iconName": "TicketsIcon",
+        "href": "/tickets/app",
+        "themeType": "green",
+        "activeForGlobalWrapperConfigTypes": [
+            {
+              "contextType": "Tickets"
+            }
+        ],
+        "URLAllowList": [
+            "/tickets/app*"
+        ],
+        "order": 3
+      },
+      {
+        "nameKey": "SURVEYS",
+        "type": "content",
+        "id": "SurveyView",
+        "iconName": "FeedbackIcon",
+        "themeType": "green",
+        "href": "/Q/MyProjectsSection?type=Survey",
+        "activeForGlobalWrapperConfigTypes": [
+          {
+            "contextType": "Projects"
+          }
+        ],
+        "URLAllowList": [
+            "/Q/MyProjectsSection*"
+        ],
+        "order": 4
+      }
+    ]
+  }
+}

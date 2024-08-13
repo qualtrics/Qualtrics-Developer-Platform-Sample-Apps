@@ -1,0 +1,11 @@
+{
+  "id": "PLUG_94c2559d-fb03-4c96-a584-bceb1c9f3271",
+  "type": "custom_block",
+  "version": "0.0.1",
+  "defaultLanguage": "EN",
+  "metadata": {
+    "tags": [
+      "globalExtensions"
+    ]
+  }
+}

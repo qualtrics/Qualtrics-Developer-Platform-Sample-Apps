@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "summary": "App Plugin Language Strings - EN"
+  },
+  "strings": {
+    "name": {
+      "text": "Home",
+      "context": "Plugin name"
+    },
+    "description": {
+      "text": "Custom Block Plugin Template Description",
+      "context": "plugin description"
+    },
+    "title": {
+      "text": "Qualtrics Survey Management App",
+      "context": "Page title"
+    }
+  }
+}
