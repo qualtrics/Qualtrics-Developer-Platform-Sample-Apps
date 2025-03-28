@@ -1,11 +1,11 @@
 {
   "id": "PLUG_e736d7a7-58b5-4850-aeef-d10d99b81a07",
-  "type": "end_user_app_definition",
+  "type": "purpose_built_app",
   "metadata": {
     "tags": [
-      "endUserApp"
+      "purposeBuiltApp"
     ],
-    "type": "endUserApp",
+    "type": "purposeBuiltApp",
     "portalType": "INTERNAL",
     "requirements": {
       "AccountPermissions": [],
@@ -14,22 +14,31 @@
     },
     "tabs": [
       {
-        "type": "endUserAppTabPlugin",
+        "type": "purposeBuiltAppTabPlugin",
         "pluginId": "PLUG_cfaa38f7-f95f-45f2-8e29-0c837237f6b6",
         "iconName": "HomeIcon",
-        "order": 1
+        "order": 1,
+        "id": "home_page_tab",
+        "nameKey": "HOME_PAGE_TAB",
+        "themeType": "red"
       },
       {
-        "type": "endUserAppTabPlugin",
+        "type": "purposeBuiltAppTabPlugin",
         "pluginId": "PLUG_e1955cb3-416c-48b9-ba46-34fa8555f32b",
         "iconName": "DashboardIcon",
-        "order": 2
+        "order": 2,
+        "id": "survey_management_tab",
+        "nameKey": "SURVEY_MANAGEMENT_TAB",
+        "themeType": "blue"
       },
       {
-        "type": "endUserAppTabPlugin",
+        "type": "purposeBuiltAppTabPlugin",
         "pluginId": "PLUG_9276b8b7-312b-42a1-8aac-7441810df395",
         "iconName": "HelpIcon",
-        "order": 10090
+        "order": 10090,
+        "id": "help_and_support_tab",
+        "nameKey": "HELP_AND_SUPPORT_TAB",
+        "themeType": "green"
       },
       {
         "nameKey": "TAB_TICKETS",
