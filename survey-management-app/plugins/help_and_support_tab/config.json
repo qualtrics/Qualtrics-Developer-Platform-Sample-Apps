@@ -5,9 +5,9 @@
   "defaultLanguage": "EN",
   "metadata": {
     "tags": [
-      "endUserApp"
+      "purposeBuiltApp"
     ],
-    "type": "endUserAppTab",
+    "type": "purposeBuiltAppTab",
     "requirements": {
       "AccountPermissions": [],
       "BrandPermissions": [],
