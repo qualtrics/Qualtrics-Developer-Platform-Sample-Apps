@@ -7,18 +7,6 @@
     "tags": [
       "purposeBuiltApp"
     ],
-    "type": "purposeBuiltAppTab",
-    "requirements": {
-      "AccountPermissions": [],
-      "BrandPermissions": [],
-      "features": []
-    },
-    "iconName": "",
-    "themeType": "",
-    "attachmentPoints": [
-      {
-        "appId": "EXT_eb2482df-da4b-47eb-9fd3-5188df4cdf18"
-      }
-    ]
+    "type": "purposeBuiltAppTab"
   }
 }
