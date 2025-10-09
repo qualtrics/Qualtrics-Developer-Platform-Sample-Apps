@@ -6,6 +6,8 @@
       "purposeBuiltApp"
     ],
     "type": "purposeBuiltApp",
+    "nameKey": "name",
+    "descriptionKey": "description",
     "portalType": "INTERNAL",
     "requirements": {
       "AccountPermissions": [],
